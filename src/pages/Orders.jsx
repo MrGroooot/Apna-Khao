@@ -49,7 +49,7 @@ const Orders = () => {
         },
         shippingAddress: {
           name: 'Debasis Das',
-          phone: '9876543210',
+          phone: '9556964425',
           street: 'Block 2C, Palm Meadows, Whitefield',
           city: 'Bangalore',
           state: 'Karnataka',

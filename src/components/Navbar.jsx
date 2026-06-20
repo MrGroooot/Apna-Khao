@@ -55,12 +55,12 @@ const Navbar = () => {
             onClick={() => navigateTo('home')} 
             className="flex items-center space-x-2.5 cursor-pointer shrink-0"
           >
-            <div className="bg-gradient-to-tr from-terracotta to-saffron text-white h-10 w-10 rounded-xl flex items-center justify-center font-serif text-xl font-bold shadow-md border border-gold/20">
-              AK
+            <div className="h-10 w-10 rounded-xl overflow-hidden shadow-md border border-gold/20 bg-white flex items-center justify-center p-0.5">
+              <img src="/assets/logo_icon.png" alt="ApnaKhao Logo" className="w-full h-full object-contain" />
             </div>
             <div>
               <h1 className="font-serif text-xl leading-none text-darkbrown font-extrabold tracking-wide">
-                Apna Khao
+                ApnaKhao
               </h1>
               <span className="text-[9px] font-semibold text-terracotta tracking-widest uppercase block mt-0.5">
                 Taste of Odisha

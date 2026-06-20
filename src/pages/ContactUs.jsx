@@ -45,7 +45,7 @@ const ContactUs = () => {
           <div className="absolute inset-0 opacity-5 bg-[radial-gradient(#D4AF37_1px,transparent_1px)] bg-[size:12px_12px]"></div>
           
           <div className="relative z-10 space-y-4">
-            <h3 className="font-serif text-lg font-bold text-gold">Apna Khao Hub</h3>
+            <h3 className="font-serif text-lg font-bold text-gold">ApnaKhao Hub</h3>
             <p className="text-gray-400 text-xs leading-relaxed">
               Our support desk is run by native Odias ready to answer any questions or organize bulk shipments for celebrations.
             </p>
@@ -59,7 +59,7 @@ const ContactUs = () => {
               </div>
               <div>
                 <h4 className="font-bold text-gray-300 mb-1">Call Support</h4>
-                <p className="text-gray-400 font-semibold">+91 98765 43210</p>
+                <p className="text-gray-400 font-semibold">+91 9556964425</p>
                 <span className="text-[10px] text-gray-500">Mon - Sat: 9 AM - 6 PM</span>
               </div>
             </div>
@@ -71,8 +71,7 @@ const ContactUs = () => {
               </div>
               <div>
                 <h4 className="font-bold text-gray-300 mb-1">Email Support</h4>
-                <p className="text-gray-400 font-semibold">support@apnakhao.com</p>
-                <p className="text-gray-400 font-semibold">gifting@apnakhao.com</p>
+                <p className="text-gray-400 font-semibold">contact.apnakhao@gmail.com</p>
               </div>
             </div>
 
@@ -83,7 +82,7 @@ const ContactUs = () => {
               </div>
               <div>
                 <h4 className="font-bold text-gray-300 mb-1">Fulfillment Hub</h4>
-                <p className="text-gray-400">VIP Road, Bhubaneswar, Odisha</p>
+                <p className="text-gray-400">Chandrasekharpur, Bhubaneswar, Odisha - 751016</p>
                 <h4 className="font-bold text-gray-300 mt-3 mb-1">Sourcing Kitchens</h4>
                 <p className="text-gray-400">Grand Road (Bada Danda), Puri, Odisha</p>
               </div>
@@ -94,8 +93,8 @@ const ContactUs = () => {
           <div className="relative z-10 pt-4 border-t border-cream/10">
             <button
               onClick={() => {
-                const message = encodeURIComponent("Namaskar Apna Khao! I need help with ordering traditional sweets.");
-                window.open(`https://wa.me/919876543210?text=${message}`, '_blank');
+                const message = encodeURIComponent("Namaskar ApnaKhao! I need help with ordering traditional sweets.");
+                window.open(`https://wa.me/919556964425?text=${message}`, '_blank');
               }}
               className="w-full bg-[#25D366] hover:bg-[#20BA56] text-white font-bold text-xs tracking-wider uppercase py-3 rounded-xl transition-all duration-300 flex items-center justify-center gap-1.5 shadow"
             >

@@ -8,6 +8,7 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import StickyCart from './components/StickyCart';
 import WhatsAppButton from './components/WhatsAppButton';
+import StickyOrderButton from './components/StickyOrderButton';
 
 // Pages
 import Home from './pages/Home';
@@ -58,6 +59,7 @@ const AppContent = () => {
       <Footer />
       <StickyCart />
       <WhatsAppButton />
+      <StickyOrderButton />
     </div>
   );
 };

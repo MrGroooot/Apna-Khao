@@ -25,10 +25,10 @@ const Footer = () => {
           {/* Brand block */}
           <div className="space-y-4">
             <div className="flex items-center space-x-2.5">
-              <div className="bg-gradient-to-tr from-terracotta to-saffron text-white h-9 w-9 rounded-lg flex items-center justify-center font-serif text-lg font-bold border border-gold/20">
-                AK
+              <div className="h-9 w-9 rounded-lg overflow-hidden border border-gold/20 bg-white flex items-center justify-center p-0.5">
+                <img src="/assets/logo_icon.png" alt="ApnaKhao Logo" className="w-full h-full object-contain" />
               </div>
-              <h2 className="font-serif text-lg font-bold text-cream">Apna Khao</h2>
+              <h2 className="font-serif text-lg font-bold text-cream">ApnaKhao</h2>
             </div>
             <p className="text-gray-400 text-xs leading-relaxed">
               Bringing the rich culinary heritage of Odisha directly to your doorstep. Handmade, 100% organic, and packed with nostalgia for Odia people living away from home.
@@ -104,15 +104,15 @@ const Footer = () => {
             <ul className="space-y-3.5 text-xs text-gray-400">
               <li className="flex items-start space-x-2.5">
                 <MapPin className="w-4.5 h-4.5 text-gold shrink-0 mt-0.5" />
-                <span>Apna Khao Fulfillment Hub, VIP Road, Bhubaneswar, Odisha, 751015</span>
+                <span>ApnaKhao Fulfillment Hub, Chandrasekharpur, Bhubaneswar, Odisha - 751016</span>
               </li>
               <li className="flex items-center space-x-2.5">
                 <Phone className="w-4.5 h-4.5 text-gold shrink-0" />
-                <span>+91 98765 43210</span>
+                <span>+91 9556964425</span>
               </li>
               <li className="flex items-center space-x-2.5">
                 <Mail className="w-4.5 h-4.5 text-gold shrink-0" />
-                <span>support@apnakhao.com</span>
+                <span>contact.apnakhao@gmail.com</span>
               </li>
             </ul>
           </div>
@@ -122,7 +122,7 @@ const Footer = () => {
         {/* Made in Odisha & Copyright Section */}
         <div className="border-t border-cream/10 pt-8 flex flex-col md:flex-row items-center justify-between gap-4 text-center">
           <div className="text-xs text-gray-500 font-semibold tracking-wide order-2 md:order-1">
-            © 2026 Apna Khao. Bringing Odisha’s tradition to your home.
+            © 2026 ApnaKhao. Bringing Odisha’s tradition to your home.
           </div>
           
           <div className="flex items-center text-xs text-gold/90 bg-white/5 border border-gold/15 px-4.5 py-2 rounded-full font-semibold tracking-wider uppercase order-1 md:order-2">

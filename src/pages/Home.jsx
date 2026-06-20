@@ -11,7 +11,7 @@ const Home = () => {
       id: 1,
       name: "Sujata Mohapatra",
       role: "Software Engineer, Bangalore (Native: Cuttack)",
-      text: "Apna Khao is a blessing! The Arisa Pitha tastes exactly like the ones my grandmother makes back home. It arrived super fresh and crispy. I ordered it for Raja festival and my flatmates loved it!",
+      text: "ApnaKhao is a blessing! The Arisa Pitha tastes exactly like the ones my grandmother makes back home. It arrived super fresh and crispy. I ordered it for Raja festival and my flatmates loved it!",
       rating: 5
     },
     {
@@ -52,10 +52,10 @@ const Home = () => {
               Authentic & Homemade
             </span>
             <h2 className="font-serif text-4xl sm:text-5xl md:text-6xl font-extrabold text-cream leading-tight">
-              Taste the Tradition of Odisha
+              Authentic Odia Traditional Foods Delivered to Your Doorstep
             </h2>
             <p className="text-gray-300 text-sm sm:text-base md:text-lg leading-relaxed max-w-xl">
-              Authentic, handmade Odia delicacies prepared with pure ghee and organic ingredients. Sourced fresh and delivered across India’s metro cities.
+              Khaja, Arisa Pitha and other traditional Odia delicacies now available in your city.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 pt-4">
               <button
@@ -63,17 +63,14 @@ const Home = () => {
                 className="bg-saffron hover:bg-saffron-dark text-cream hover:text-white font-bold text-sm tracking-wide px-7 py-3.5 rounded-xl shadow-md transition-all duration-300 hover:scale-[1.02] flex items-center justify-center gap-2 w-full sm:w-auto"
                 id="hero-shop-now"
               >
-                Shop Now
+                Order Now
                 <ArrowRight className="w-4 h-4" />
               </button>
               <button
-                onClick={() => {
-                  const element = document.getElementById('storytelling-section');
-                  if (element) element.scrollIntoView({ behavior: 'smooth' });
-                }}
-                className="border border-cream/30 hover:border-gold hover:text-gold text-cream font-bold text-sm tracking-wide px-7 py-3.5 rounded-xl transition-all duration-300 w-full sm:w-auto flex items-center justify-center"
+                onClick={() => window.dispatchEvent(new CustomEvent('open-whatsapp-chat'))}
+                className="border border-cream/30 hover:border-[#25D366] hover:bg-[#25D366]/10 text-cream font-bold text-sm tracking-wide px-7 py-3.5 rounded-xl transition-all duration-300 w-full sm:w-auto flex items-center justify-center gap-2"
               >
-                Explore Traditional Foods
+                Chat on WhatsApp
               </button>
             </div>
           </div>
@@ -104,7 +101,7 @@ const Home = () => {
       <section className="bg-cream py-16 md:py-20 border-y border-gold/10 relative overflow-hidden bg-odia-pattern-light">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="text-center max-w-xl mx-auto mb-14">
-            <span className="text-xs font-bold text-terracotta tracking-widest uppercase block mb-2">The Apna Khao Promise</span>
+            <span className="text-xs font-bold text-terracotta tracking-widest uppercase block mb-2">The ApnaKhao Promise</span>
             <h2 className="font-serif text-2xl md:text-3xl text-darkbrown font-bold">
               Why Our Delicacies Taste Extraordinary
             </h2>
@@ -196,7 +193,7 @@ const Home = () => {
                 Our signature sweets like <strong>Khaja</strong> have been offered to the deities for over 800 years. Similarly, the soft, jaggery-rich <strong>Arisa Pitha</strong> is prepared during local harvest festivals to mark abundance and blessings, while the soft highway specialty <strong>Pahala Rasagola</strong> and caramelized <strong>Chhena Poda</strong> highlight the state's dairy rich heritage.
               </p>
               <p>
-                At Apna Khao, we are on a mission to keep this spiritual nostalgic connection alive. We partner directly with veteran karigars who have prepared temple offerings for generations, packaging their authentic craftsmanship safely so that Odias living in Bangalore, Mumbai, or Delhi can taste their heritage again.
+                At ApnaKhao, we are on a mission to keep this spiritual nostalgic connection alive. We partner directly with veteran karigars who have prepared temple offerings for generations, packaging their authentic craftsmanship safely so that Odias living in Bengaluru, Mumbai, or Delhi can taste their heritage again.
               </p>
             </div>
 

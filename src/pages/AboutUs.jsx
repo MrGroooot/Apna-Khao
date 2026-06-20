@@ -11,7 +11,7 @@ const AboutUs = () => {
         <div className="relative z-10 max-w-3xl mx-auto px-4 space-y-4">
           <span className="text-gold font-bold text-xs uppercase tracking-widest block">Our Legacy & Mission</span>
           <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl font-extrabold text-cream">
-            The Sourcing Story of Apna Khao
+            The Sourcing Story of ApnaKhao
           </h2>
           <p className="text-gray-300 text-xs sm:text-sm max-w-xl mx-auto leading-relaxed font-medium">
             Bridging the gap between the authentic kitchens of Odisha and the homes of Odias living in India's metropolitan hubs.
@@ -35,10 +35,10 @@ const AboutUs = () => {
                 The seed of Apna Khao was planted in a small apartment in Bangalore. Surrounded by standard commercial snacks and sweets, a group of Odia expats realized how deeply they craved the true, comforting taste of home—the soft texture of a highway-side Pahala Rasagola, the crunch of a Puri Ghee Khaja, and the earthy sweetness of jaggery-rich Arisa Pitha.
               </p>
               <p>
-                Locally available alternatives lacked the authentic craftsmanship of traditional sweet-makers (Karigars) and the organic purity of Odisha’s raw materials. Thus, <strong>Apna Khao</strong> was born—a brand dedicated to bringing authentic, handmade traditional foods directly from Odisha to metro cities across India.
+                Locally available alternatives lacked the authentic craftsmanship of traditional sweet-makers (Karigars) and the organic purity of Odisha’s raw materials. Thus, <strong>ApnaKhao</strong> was born—a brand dedicated to bringing authentic, handmade traditional foods directly from Odisha to metro cities across India.
               </p>
               <p>
-                Our vision is dual: to satisfy the nostalgic culinary cravings of the Odia diaspora in Tier 1 cities (Bangalore, Mumbai, Delhi, Hyderabad, Pune, Chennai, Kolkata) and, equally, to empower local rural artisans, women's self-help groups (SHGs), and farmers back in Odisha.
+                Our vision is dual: to satisfy the nostalgic culinary cravings of the Odia diaspora in Tier-1 cities (Bengaluru, Hyderabad, Mumbai, Pune, Delhi, Chennai, Gurgaon, and Noida) and, equally, to empower local rural artisans, women's self-help groups (SHGs), and farmers back in Odisha.
               </p>
             </div>
           </div>
@@ -129,10 +129,10 @@ const AboutUs = () => {
           A Culinary Bridge Back Home
         </h2>
         <p className="text-gray-500 text-xs md:text-sm leading-relaxed font-medium max-w-2xl mx-auto">
-          "For an Odia living in Bangalore or Mumbai, a bite of Arisa Pitha is not just about sweetness; it is about festivals, the scent of parched earth after the first rain, the security of family gatherings, and a nostalgic prayer offered to the Lord. Apna Khao is our humble effort to pack those emotions carefully and fly them directly to you."
+          "For an Odia living in Bengaluru, Mumbai, or Delhi, a bite of Arisa Pitha is not just about sweetness; it is about festivals, the scent of parched earth after the first rain, the security of family gatherings, and a nostalgic prayer offered to the Lord. ApnaKhao is our humble effort to pack those emotions carefully and fly them directly to you."
         </p>
         <div className="flex justify-center items-center gap-1 text-[10px] text-terracotta font-extrabold uppercase tracking-widest">
-          <span>Apna Khao Team</span>
+          <span>ApnaKhao Team</span>
           <span>•</span>
           <span>Sourced in Odisha ❤️</span>
         </div>
