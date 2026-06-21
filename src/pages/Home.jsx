@@ -32,14 +32,14 @@ const Home = () => {
 
   return (
     <div className="bg-cream-light">
-      
+
       {/* 1. Hero Section */}
       <section className="relative bg-darkbrown text-cream overflow-hidden">
         {/* Banner Background Image with Deep Overlay */}
         <div className="absolute inset-0 z-0">
-          <img 
-            src="/assets/hero_banner.png" 
-            alt="Traditional Odia Sweets" 
+          <img
+            src="/assets/hero_banner.png"
+            alt="Traditional Odia Sweets"
             className="w-full h-full object-cover opacity-35"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-darkbrown via-darkbrown/85 to-transparent"></div>
@@ -82,7 +82,7 @@ const Home = () => {
         <div className="text-center max-w-xl mx-auto mb-12">
           <span className="text-xs font-bold text-terracotta tracking-widest uppercase block mb-2">Our Signature Offerings</span>
           <h2 className="font-serif text-3xl md:text-4xl text-darkbrown font-bold relative inline-block pb-3">
-            Handcrafted Traditional Delicacies
+            Handcrafted Traditional Delicious
             <span className="absolute bottom-0 left-1/2 -translate-x-1/2 w-16 h-1 bg-gradient-to-r from-saffron to-terracotta rounded-full"></span>
           </h2>
           <p className="text-gray-500 text-xs md:text-sm mt-3.5 leading-relaxed">
@@ -108,7 +108,7 @@ const Home = () => {
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6">
-            
+
             {/* Box 1 */}
             <div className="bg-white p-6 rounded-2xl border border-gold/10 shadow-premium text-center space-y-3 hover:-translate-y-1 transition-transform duration-300">
               <div className="bg-emerald-50 text-emerald-600 w-12 h-12 rounded-xl flex items-center justify-center mx-auto">
@@ -161,7 +161,7 @@ const Home = () => {
       {/* 4. About Odisha Food Culture (Storytelling) */}
       <section id="storytelling-section" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-24">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-          
+
           {/* Story Image */}
           <div className="relative rounded-2xl overflow-hidden shadow-premium border border-gold/25 aspect-[4/3] w-full">
             <img
@@ -184,7 +184,7 @@ const Home = () => {
             <h2 className="font-serif text-3xl md:text-4xl text-darkbrown font-bold leading-tight">
               Sweets Born in the Land of Jagannath
             </h2>
-            
+
             <div className="space-y-4 text-xs md:text-sm text-gray-500 leading-relaxed font-medium">
               <p>
                 In Odisha, food is not just sustenance; it is a sacred offering and an emotional expression. The core of Odisha's culinary legacy lies in the ancient kitchens of the Jagannath Temple in Puri, recognized as the largest kitchen in the world. For centuries, specialized Karigars have prepared 56 kinds of bhog (Chapan Bhog) daily, using firewood and clay pots.
@@ -198,11 +198,11 @@ const Home = () => {
             </div>
 
             <div className="pt-2">
-              <button 
+              <button
                 onClick={() => navigateTo('about')}
                 className="text-terracotta hover:text-terracotta-dark text-sm font-bold flex items-center gap-1 group"
               >
-                Read More About Odia Sourcing Heritage 
+                Read More About Odia Sourcing Heritage
                 <span className="transition-transform duration-200 group-hover:translate-x-1">→</span>
               </button>
             </div>
@@ -226,8 +226,8 @@ const Home = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {testimonials.map((t) => (
-              <div 
-                key={t.id} 
+              <div
+                key={t.id}
                 className="bg-white p-7 rounded-2xl border border-gold/15 shadow-premium flex flex-col justify-between hover:shadow-premium-hover transition-all duration-300"
               >
                 <div className="space-y-4">
@@ -243,7 +243,7 @@ const Home = () => {
                     "{t.text}"
                   </p>
                 </div>
-                
+
                 <div className="mt-6 pt-4 border-t border-gray-100 flex items-center justify-between">
                   <div>
                     <h4 className="font-serif text-sm font-bold text-darkbrown">{t.name}</h4>
@@ -263,7 +263,7 @@ const Home = () => {
       <section className="bg-gradient-to-tr from-darkbrown to-darkbrown-dark text-cream py-16 relative overflow-hidden">
         {/* Subtle Odia pattern watermark */}
         <div className="absolute inset-0 opacity-5 bg-[radial-gradient(#D4AF37_1px,transparent_1px)] bg-[size:16px_16px]"></div>
-        
+
         <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-6">
           <span className="text-gold font-bold text-xs uppercase tracking-widest block">Festive Sweets & Updates</span>
           <h2 className="font-serif text-3xl md:text-4xl font-bold text-cream">
@@ -273,7 +273,7 @@ const Home = () => {
             Subscribe to our newsletter to receive direct notifications of fresh batches, seasonal delicacies, and festival discounts straight in your inbox.
           </p>
 
-          <form 
+          <form
             onSubmit={(e) => {
               e.preventDefault();
               const inp = e.target.querySelector('input');
