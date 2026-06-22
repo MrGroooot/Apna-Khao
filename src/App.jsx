@@ -1,6 +1,7 @@
 import React, { useContext } from 'react';
 import { CartProvider, CartContext } from './context/CartContext';
 import { AuthProvider } from './context/AuthContext';
+import { Analytics } from '@vercel/analytics/react';
 
 // Components
 import OfferBanner from './components/OfferBanner';
@@ -69,6 +70,7 @@ function App() {
     <AuthProvider>
       <CartProvider>
         <AppContent />
+        <Analytics />
       </CartProvider>
     </AuthProvider>
   );
